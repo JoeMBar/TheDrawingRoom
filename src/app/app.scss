@@ -14,3 +14,19 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,600');
+
+.theme {
+  background-image: url("../assets/img/app.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  .textField {
+    background-color: #ecf0f1;
+  }
+
+  .buttonText {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+  }
